@@ -1,5 +1,5 @@
 {
-  "name": "segvcatcher"
+  "name": "segfault-handler"
   ,"description": "catches SIGSEGV and prints diagnostic information"
   ,"private": "true"
   ,"version": "0.1.0"
@@ -12,7 +12,7 @@
   }
   ,"devDependencies": {
   }
-  ,"main": "lib/segvcatcher.js"
+  ,"main": "./lib/segvhandler.js"
   ,"directories": {
     "bin": "./bin"
   }
